@@ -3,7 +3,32 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "Material::operator=(Material const&amp;):material.hpp">
+         contextName = "Object::drawAll():object.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Model::draw() const:model.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "&amp;vertices">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Vertex::bindMaterial():vertex.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(Material)(*( (Material *)0x102866400))">
+            </PersistentString>
+            <PersistentString
+               value = "material">
+            </PersistentString>
+            <PersistentString
+               value = "material-&gt;texture_id">
+            </PersistentString>
+            <PersistentString
+               value = "Texture::textures">
+            </PersistentString>
+         </PersistentStrings>
       </ContextState>
       <ContextState
          contextName = "Material::loadMaterials(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;):material.cpp">
@@ -20,10 +45,10 @@
                value = "(Material)(*( (Material *)0x102866400))">
             </PersistentString>
             <PersistentString
-               value = "(Material)(*( (Material *)0x102866560))">
+               value = "(Material)(*( (Material *)0x102866610))">
             </PersistentString>
             <PersistentString
-               value = "(Material)(*( (Material *)0x102866610))">
+               value = "(Material)(*( (Material *)0x102866560))">
             </PersistentString>
             <PersistentString
                value = "(Material)(*( (Material *)0x1028664b0))">
@@ -34,24 +59,37 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "Model::findMaterial(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;):model.cpp">
+         contextName = "Material::operator=(Material const&amp;):material.hpp">
       </ContextState>
       <ContextState
-         contextName = "Vertex::bindMaterial():vertex.cpp">
+         contextName = "Vertex::draw() const:vertex.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Camera::display():camera.cpp">
          <PersistentStrings>
             <PersistentString
-               value = "material">
-            </PersistentString>
-            <PersistentString
-               value = "(Material)(*( (Material *)0x102866400))">
-            </PersistentString>
-            <PersistentString
-               value = "material-&gt;texture_id">
-            </PersistentString>
-            <PersistentString
-               value = "Texture::textures">
+               value = "Object::objects">
             </PersistentString>
          </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Object::load(Model):object.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "Object::objects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Game::load():game.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "Object::objects">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Model::findMaterial(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;):model.cpp">
       </ContextState>
    </ContextStates>
 </VariablesViewState>

@@ -45,7 +45,7 @@ public :
 //    CHARGEMENT
     
     static void loadAll();
-    static void load(const Model);
+    static void load(const Model*);
     
 //    MISE EN PLACE
         

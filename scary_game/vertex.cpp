@@ -4,7 +4,6 @@
 
 void Vertex::draw() const
 {
-    cout << material_id;
     glNormal3f(normal.x, normal.y, normal.z);
     glTexCoord2f(pixel.x * Material::materials[material_id].texture_scale.x, pixel.y * Material::materials[material_id].texture_scale.y);
     glVertex3f(position.x, position.y, position.z);

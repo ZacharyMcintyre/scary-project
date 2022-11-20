@@ -15,51 +15,51 @@ void Object::loadAll()
 {
     for (int i = 0; i < Model::models.size(); i++)
     {
-        load(Model::models[i]);
+        load(&Model::models[i]);
     }
 }
 
-void Object::load(Model model)
+void Object::load(const Model *model)
 {
-    if (model.name == "ground")
+    if (model->name == "ground")
     {
         for (int j = 0; j < 4; j++)
         {
-            Ground ground(&model, j);
+            Ground ground(model, j);
             objects.push_back(ground);
         }
     }
-    if (model.name == "sky")
+    if (model->name == "sky")
     {
-        Sky sky(&model);
+        Sky sky(model);
         objects.push_back(sky);
     }
-    if (model.name == "dead_tree")
+    if (model->name == "dead_tree")
     {
         for (int j = 0; j < 10000; j++)
         {
-            Tree tree(&model);
+            Tree tree(model);
             objects.push_back(tree);
         }
     }
-    if (model.name == "rock")
+    if (model->name == "rock")
     {
         for (int j = 0; j < 1000; j++)
         {
-            Rock rock(&model);
+            Rock rock(model);
             objects.push_back(rock);
         }
     }
-    if (model.name == "flashlight")
+    if (model->name == "flashlight")
     {
-        Flashlight flashlight(&model);
+        Flashlight flashlight(model);
         objects.push_back(flashlight);
     }
-    if (model.name == "pillar")
+    if (model->name == "pillar")
     {
         for (int j = 0; j < 5; j++)
         {
-            Pillar pillar(&model, j);
+            Pillar pillar(model, j);
             objects.push_back(pillar);
         }
     }
