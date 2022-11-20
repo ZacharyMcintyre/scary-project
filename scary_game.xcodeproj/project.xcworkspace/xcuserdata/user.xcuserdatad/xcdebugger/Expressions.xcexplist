@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Material::operator=(Material const&amp;):material.hpp">
+      </ContextState>
+      <ContextState
+         contextName = "Material::loadMaterials(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;):material.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "&amp;materials[0]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Model::Model(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;):model.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "(Material)(*( (Material *)0x102866400))">
+            </PersistentString>
+            <PersistentString
+               value = "(Material)(*( (Material *)0x102866560))">
+            </PersistentString>
+            <PersistentString
+               value = "(Material)(*( (Material *)0x102866610))">
+            </PersistentString>
+            <PersistentString
+               value = "(Material)(*( (Material *)0x1028664b0))">
+            </PersistentString>
+            <PersistentString
+               value = "(Material)(*( (Material *)0x1028666c0))">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "Model::findMaterial(std::__1::basic_string&lt;char, std::__1::char_traits&lt;char&gt;, std::__1::allocator&lt;char&gt; &gt;):model.cpp">
+      </ContextState>
+      <ContextState
+         contextName = "Vertex::bindMaterial():vertex.cpp">
+         <PersistentStrings>
+            <PersistentString
+               value = "material">
+            </PersistentString>
+            <PersistentString
+               value = "(Material)(*( (Material *)0x102866400))">
+            </PersistentString>
+            <PersistentString
+               value = "material-&gt;texture_id">
+            </PersistentString>
+            <PersistentString
+               value = "Texture::textures">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

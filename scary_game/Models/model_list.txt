@@ -1,0 +1,6 @@
+ground
+sky
+dead_tree
+rock
+flashlight
+pillar
